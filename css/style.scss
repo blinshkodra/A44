@@ -1,0 +1,59 @@
+// $font-color:red;
+// $primary-color: yellow;
+// body{
+//     background-color: $primary-color;
+// h1{
+//     color: $font-color;
+// }   
+// div{
+//     font-size: 40px;
+//     h1{
+//         color: black;
+//     }
+// } 
+// }
+@import "./colors"
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $background;
+    padding: 20px;
+    h1{
+        font-size: 40px;
+        color: orange;
+    }
+    ul{
+        display: flex;
+        padding-left: 20px;
+        justify-content: space-between;
+        list-style: none;
+        a{
+            color: orange;
+            background-color: $background;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+    }
+
+}
+main{
+    height: 90vh;
+    background-color: $font-color;
+    h1{
+        text-align: center;
+        font-size: 21px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-shadow: $shadow;
+    }
+}
